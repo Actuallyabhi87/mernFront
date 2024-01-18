@@ -57,7 +57,7 @@ const Home = () => {
             </React.Fragment>
           </div>
         ))}
-        {foodCat.length === 0 && <div>No data found</div>}
+        {foodCat.length === 0 && <div>Server is slow please wait</div>}
         {/* Render a message if no data is found */}
       </div>
       <div>

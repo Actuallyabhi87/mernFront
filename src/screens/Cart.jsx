@@ -32,7 +32,7 @@ export default function Cart() {
         }
       );
 
-      alert("JSON RESPONSE:::::", response.status);
+      // alert("JSON RESPONSE:::::", response.status);
 
       if (response.ok) {
         dispatch({ type: "DROP" });
