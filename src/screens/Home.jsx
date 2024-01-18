@@ -37,7 +37,7 @@ const Home = () => {
       </div>
       <div className="container">
         {foodCat.map((data) => (
-          <div className="row mb-3" key={data_id}>
+          <div className="row mb-3" key={data._id}>
             <React.Fragment key={data._id}>
               <div className="fs-3 m-3">{data.CategoryName}</div>
               <hr />
